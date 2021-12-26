@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  UnsplashPixels
 //
-//  Created by IBE on 26/12/2021.
+//  Created by naseem on 26/12/2021.
 //
 
 import UIKit
