@@ -12,7 +12,6 @@ class NetworkService {
     // MARK: - URL Properties
     private var urltocall = "https://api.unsplash.com/photos"
     private let clientCredentials = "OoP2Ry3Uz3YSpnafoKYfnj5dVNP9zi4pGtAp6G9mA0w"
-    //URL(string: urltocall+"?page=\(String(offset))")
     static let shared = NetworkService()
     
     func createArrayFromAPI(offset: Int, completion: @escaping (_ resulCal: [ImagesModel]?, _ error: Error?) -> Void) {
