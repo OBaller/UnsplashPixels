@@ -19,6 +19,10 @@
 		B450B3F42778E26D00AF9271 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3F32778E26D00AF9271 /* UIView+Layout.swift */; };
 		B450B3F62778E2F700AF9271 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3F52778E2F700AF9271 /* UIImageView+Extensions.swift */; };
 		B450B3F82778E32A00AF9271 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3F72778E32A00AF9271 /* LayoutConstraint.swift */; };
+		B450B3FB2778E43100AF9271 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3FA2778E43100AF9271 /* HomeCollectionViewCell.swift */; };
+		B450B3FD2778E49B00AF9271 /* PhotosLoadingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3FC2778E49A00AF9271 /* PhotosLoadingFooter.swift */; };
+		B450B4002778E76300AF9271 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3FF2778E76300AF9271 /* HomeViewController.swift */; };
+		B450B4022778E7BF00AF9271 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B4012778E7BF00AF9271 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		B450B3F32778E26D00AF9271 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		B450B3F52778E2F700AF9271 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		B450B3F72778E32A00AF9271 /* LayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		B450B3FA2778E43100AF9271 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B450B3FC2778E49A00AF9271 /* PhotosLoadingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosLoadingFooter.swift; sourceTree = "<group>"; };
+		B450B3FF2778E76300AF9271 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B450B4012778E7BF00AF9271 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,8 @@
 		B450B3D52778DD6700AF9271 /* UnsplashPixels */ = {
 			isa = PBXGroup;
 			children = (
+				B450B3FE2778E6FD00AF9271 /* Controllers */,
+				B450B3F92778E40600AF9271 /* Views */,
 				B450B3F02778E1F700AF9271 /* Helpers */,
 				B450B3ED2778E01200AF9271 /* NetworkManager */,
 				B450B3EA2778DE5200AF9271 /* Model */,
@@ -107,6 +117,24 @@
 				B450B3F72778E32A00AF9271 /* LayoutConstraint.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B450B3F92778E40600AF9271 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B450B3FA2778E43100AF9271 /* HomeCollectionViewCell.swift */,
+				B450B3FC2778E49A00AF9271 /* PhotosLoadingFooter.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B450B3FE2778E6FD00AF9271 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B450B3FF2778E76300AF9271 /* HomeViewController.swift */,
+				B450B4012778E7BF00AF9271 /* DetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,15 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B450B4022778E7BF00AF9271 /* DetailViewController.swift in Sources */,
 				B450B3EF2778E03F00AF9271 /* NetworkService.swift in Sources */,
 				B450B3F22778E23800AF9271 /* VerticalStackView.swift in Sources */,
 				B450B3DB2778DD6700AF9271 /* ViewController.swift in Sources */,
 				B450B3D72778DD6700AF9271 /* AppDelegate.swift in Sources */,
 				B450B3D92778DD6700AF9271 /* SceneDelegate.swift in Sources */,
+				B450B3FB2778E43100AF9271 /* HomeCollectionViewCell.swift in Sources */,
 				B450B3F82778E32A00AF9271 /* LayoutConstraint.swift in Sources */,
 				B450B3F42778E26D00AF9271 /* UIView+Layout.swift in Sources */,
 				B450B3F62778E2F700AF9271 /* UIImageView+Extensions.swift in Sources */,
 				B450B3EC2778DEFA00AF9271 /* ImagesModel.swift in Sources */,
+				B450B3FD2778E49B00AF9271 /* PhotosLoadingFooter.swift in Sources */,
+				B450B4002778E76300AF9271 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
