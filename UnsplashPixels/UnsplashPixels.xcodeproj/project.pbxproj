@@ -14,6 +14,7 @@
 		B450B3E02778DD7900AF9271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B450B3DF2778DD7900AF9271 /* Assets.xcassets */; };
 		B450B3E32778DD7900AF9271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B450B3E12778DD7900AF9271 /* LaunchScreen.storyboard */; };
 		B450B3EC2778DEFA00AF9271 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3EB2778DEFA00AF9271 /* ImagesModel.swift */; };
+		B450B3EF2778E03F00AF9271 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450B3EE2778E03F00AF9271 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B450B3E22778DD7900AF9271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B450B3E42778DD7900AF9271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B450B3EB2778DEFA00AF9271 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		B450B3EE2778E03F00AF9271 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B450B3D52778DD6700AF9271 /* UnsplashPixels */ = {
 			isa = PBXGroup;
 			children = (
+				B450B3ED2778E01200AF9271 /* NetworkManager */,
 				B450B3EA2778DE5200AF9271 /* Model */,
 				B450B3D62778DD6700AF9271 /* AppDelegate.swift */,
 				B450B3D82778DD6700AF9271 /* SceneDelegate.swift */,
@@ -76,6 +79,14 @@
 				B450B3EB2778DEFA00AF9271 /* ImagesModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B450B3ED2778E01200AF9271 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				B450B3EE2778E03F00AF9271 /* NetworkService.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B450B3EF2778E03F00AF9271 /* NetworkService.swift in Sources */,
 				B450B3DB2778DD6700AF9271 /* ViewController.swift in Sources */,
 				B450B3D72778DD6700AF9271 /* AppDelegate.swift in Sources */,
 				B450B3D92778DD6700AF9271 /* SceneDelegate.swift in Sources */,
